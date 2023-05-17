@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+
+.container {
+    width: 400px;
+    height: 500px;
+    margin: 50px auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.container img {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width : 30%;
+}
+
+.message {
+    color: red;
+  }
+  
+  
+
+.title_text {
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;  
+}
+
+.input-group {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input[type="text"], .input-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.input-group input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.remember-me {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.forgot-password {
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.forgot-password a {
+    color: #4285f4;
+    text-decoration: none;
+    font-size: 14px;
+}
